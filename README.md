@@ -4,9 +4,8 @@
             <button onClick="buy('vortex');">vortex: 12</button>
             <br><br>
             <button onClick="buy('party time');">party time: 15</button>
-        </div>
-        <div id="ord">Order:</div>
-        <span id="cost"></span>
+        <div id="ord">Order:
+        <span id="cost">
         <script>
         var cost =0;
             function buy(type){
